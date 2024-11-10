@@ -1,4 +1,4 @@
-Here’s a `README.md` file for your **USDC Transfer Tracker** project:
+
 
 ```markdown
 # USDC Transfer Tracker

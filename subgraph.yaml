@@ -1,0 +1,25 @@
+specVersion: 0.0.4
+schema:
+  file: schema.graphql
+
+dataSources:
+  - name: USDC
+    kind: ethereum/contract
+    network: sepolia
+    source:
+      address: "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"  # Sepolia USDC contract address
+      abi: USDC
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: typescript
+      entities:
+        - Transfer
+      abis:
+        - name: USDC
+          file: "./abis/USDC.json"
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+      file: "./src/mapping.ts"
+

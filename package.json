@@ -1,0 +1,20 @@
+{
+  "name": "usdc-transfer-backend",
+  "version": "1.0.0",
+  "description": "Backend for USDC Transfer Tracker",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Modern sans-serif font stack */
+  -webkit-font-smoothing: antialiased;  /* Smooth text rendering */
+  -moz-osx-font-smoothing: grayscale;  /* Smooth text rendering for macOS */
+  background-color: #f4f4f4;  /* Light background color for better contrast */
+  color: #333;  /* Set a default text color */
+  line-height: 1.6;  /* Improve readability by adding space between lines */
+}
+
+/* Code block styling */
+code {
+  font-family: 'Courier New', Courier, monospace;  /* Monospaced font for code */
+  background-color: #f0f0f0;  /* Light background for code blocks */
+  padding: 0.2em 0.4em;  /* Padding for a cleaner look */
+  border-radius: 4px;  /* Slight rounding of corners for aesthetic appeal */
+  color: #d63384;  /* Add a unique color to stand out (magenta-like shade) */
+  word-wrap: break-word;  /* Ensure long code lines don't overflow */
+}
+
+/* Ensuring proper default styles for HTML elements */
+html {
+  font-size: 16px;  /* Base font size for better scalability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Consistent header font */
+  color: #222;  /* Slightly darker color for headers for better emphasis */
+}
+
+ul {
+  list-style: none;  /* Removes default bullet points */
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}

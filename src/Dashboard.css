@@ -1,0 +1,65 @@
+/* General Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6e6; /* Light red background */
+  color: #333;
+}
+
+/* Header */
+h1 {
+  color: #d32f2f;  /* Bold red color */
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* List Item Styling */
+li {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for List Items */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Style for Strong Text within List */
+li strong {
+  color: #d32f2f; /* Matching red color for strong text */
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  li {
+      width: 90%;  /* Adjust width for smaller screens */
+  }
+}
+
+  

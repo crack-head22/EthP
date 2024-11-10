@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./build",
+    "baseUrl": "./",
+    "paths": {
+      "@graphprotocol/graph-ts": [
+        "node_modules/@graphprotocol/graph-ts"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "generated/**/*"
+  ]
+}
